@@ -33,8 +33,16 @@ $matches = [
     ]
        
 ];
+echo "<pre>";
+var_dump($matches);
 
-var_dump($matches)
+foreach ($matches as $key => $value) {
+    echo $key;
+    echo $value;
+}
+
+
+echo "<pre>";
 
 
 
@@ -50,6 +58,8 @@ var_dump($matches)
 </head>
 <body>
     
+<?php foreach ($matches as $match) : ?>
+<?php endforeach ?>
 
 </body>
 </html>
