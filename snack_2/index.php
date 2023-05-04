@@ -8,6 +8,11 @@ Con un form passare come parametri GET name, mail e age e verificare (cercando i
 
 <?php
 
+$name = $_GET["name"];
+$mail = $_GET["mail"];
+$age = $_GET["age"];
+
+var_dump( $name. $mail. $age)
 
 ?>
 
@@ -21,7 +26,16 @@ Con un form passare come parametri GET name, mail e age e verificare (cercando i
 </head>
 <body>
 
+<form action="" method="$_GET">
+    <label for="name">nome</label>
+    <input type="text" name="name">
+    <label for="mail">Email</label>
+    <input type="text" name="mail">
+    <label for="age">Etò</label>
+    <input type="text" name="age">
+<button type="submit" class="btn btn-primary">Submit</button>
 
+</form>
 
 </body>
 </html>
