@@ -35,15 +35,13 @@ $matches = [
 ];
 echo "<pre>";
 var_dump($matches);
+echo "<pre>";
+
 
 foreach ($matches as $key => $value) {
     echo $key;
     echo $value;
 }
-
-
-echo "<pre>";
-
 
 
 ?>
