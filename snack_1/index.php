@@ -8,3 +8,48 @@ Creiamo un array contenente le partite di basket di un’ipotetica tappa del cal
 Olimpia Milano - Cantù | 55-60 
 
 -->
+
+
+<?php
+
+$matches = [
+    [
+        "casa" => "Olimpia Milano",
+        "ospite" => "Cantù",
+        "punti_casa" => 55,
+        "punti_ospite" => 60,
+    ],
+    [
+        "casa" => "Olimpia Milano",
+        "ospite" => "Cantù",
+        "punti_casa" => 55,
+        "punti_ospite" => 60,
+    ],
+    [
+        "casa" => "Olimpia Milano",
+        "ospite" => "Cantù",
+        "punti_casa" => 55,
+        "punti_ospite" => 60,
+    ]
+       
+];
+
+var_dump($matches)
+
+
+
+?>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+</body>
+</html>
